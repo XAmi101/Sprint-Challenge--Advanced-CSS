@@ -257,6 +257,8 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
+    padding: 25px 20px;
+    margin-top: 20px;
   }
 }
 .home .walk .walk-text {
@@ -279,7 +281,8 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {
-    width: 90%;
+    width: 100%;
+    margin: 10px;
   }
 }
 .home .walk .walk-img img {
